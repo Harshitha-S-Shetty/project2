@@ -103,7 +103,7 @@ function PostJob() {
   },[JobList])
 
   return (
-    <div style={{ backgroundImage: "url('https://img.freepik.com/free-photo/abstract-background-cement-wall-shadow-light-concept_53876-95320.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
+    <div style={{ backgroundImage: "url('https://media.istockphoto.com/id/1331579485/vector/background-curved-light-blue.jpg?s=612x612&w=0&k=20&c=Wslr-PIxcQDoxXmzC7_w8rbFM9_s_5Jz99tE3ftNM1A=')", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
       <h4 style={{ textAlign: "center", fontSize: "25px", marginTop: "10px", marginBottom: "10px", color:"grey", fontWeight:"lighter" }}>Post a Job</h4>
       <form onSubmit={handleSubmit}>
         <Box
