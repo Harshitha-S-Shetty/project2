@@ -105,11 +105,12 @@ function ResponsiveAppBar() {
                   '& .MuiMenu-paper': {
                     width: '100%',
                     maxWidth: '100%', // Occupy full width on small screens
+                    left: 0, // Align the menu to the left edge
                   },
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page.name} onClick={handleCloseNavMenu}>
+                  <MenuItem key={page.name} onClick={handleCloseNavMenu} sx={{ justifyContent: 'center' }}>
                     <Typography textAlign="center">
                       <Link to={page.path} style={{ textDecoration: 'none', color: 'black' }}>
                         {page.name}
